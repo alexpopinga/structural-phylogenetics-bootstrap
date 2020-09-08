@@ -1,0 +1,9 @@
+ #S# Val_frames Val_frames   1.0   0.0   100
+ #S# Met_frames Val_frames     0    -1     0
+ #S# Met_frames Leu_frames     0    -1     0
+ #S# Leu_frames Met_frames     0    -1     0
+ #S# Val_frames Leu_frames     0    -1     0
+ #S# Leu_frames Val_frames     0    -1     0
+ #S# Leu_frames Leu_frames   1.0   0.0    98
+ #S# Val_frames Met_frames     0    -1     0
+ #S# Met_frames Met_frames     0    -1     0

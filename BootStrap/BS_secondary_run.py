@@ -32,7 +32,7 @@ for trial in dirs_:
 		f.write('./run_superpose_pair_directly.py\n') # >> generate pairwise Q-score comparison for all Taxa in trial
 		f.write('./qPairs2list.py\n') # >> 53 x 53 = number of files generated :: Parse files and save results in list
 		f.write('./Qscore_2_Mx.py\n') # >> convert list to Matrix 
-		f.write('./Mx2nj.py\n') # >> Generte tree from matrix
+		f.write('python3 Mx2nj.py\n') # >> Generte tree from matrix
 	os.system('chmod +x submit_set' + str(l_cnt) + '.sh')
 	l_cnt += 1
 # Collate trees from each folder

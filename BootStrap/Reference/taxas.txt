@@ -1,0 +1,9 @@
+Arg
+Cys
+Glu
+Ile
+Leu
+Met
+Trp
+Tyr
+Val

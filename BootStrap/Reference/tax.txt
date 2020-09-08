@@ -1,0 +1,9 @@
+Arg.pdb
+Cys.pdb
+Glu.pdb
+Ile.pdb
+Leu.pdb
+Met.pdb
+Trp.pdb
+Tyr.pdb
+Val.pdb

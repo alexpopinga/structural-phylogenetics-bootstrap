@@ -1,0 +1,21 @@
+#nexus
+BEGIN taxa;
+DIMENSIONS ntax=3;
+TAXLABELS
+[1]Leu_frames
+[2]Met_frames
+[3]Val_frames
+;
+END [taxa];
+BEGIN distances;
+DIMENSIONS ntax=3;
+FORMAT labels diagonal triangle=both;
+MATRIX
+[1]Leu_frames	  1.0000  1.0000  1.0000
+[2]Met_frames	  1.0000  1.0000  1.0000
+[3]Val_frames	  1.0000  1.0000  0.0000
+;
+END [distances];
+BEGIN TREES;
+TREE tree1 =(Leu_frames:0.50000,Met_frames:0.50000,Val_frames:0.50000)Inner1:0.00000;
+END;
